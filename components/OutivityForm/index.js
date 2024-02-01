@@ -90,12 +90,11 @@ export default function OutivityForm({
             )}
             <StyledNewOutivitiesImageInput
               type="file"
-              class="inputfile"
+              className="inputfile"
               name="outivityImage"
               id="outivityImage"
               accept=".png, .jpeg, .jpg, .webp"
               required={!isEdit}
-              value={message}
               onChange={handleImageChange}
             />
             {showWarning && (
